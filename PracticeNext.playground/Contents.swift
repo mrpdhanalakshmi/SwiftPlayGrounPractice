@@ -635,3 +635,10 @@ total = numberOfArray.reduce(0, { $0 + $1
 })
 
 print(total)
+
+class Vehicle{
+    var currentSpeed = 0.0
+    var description: String{
+        return "The description will return \(currentSpeed)"
+    }
+}
